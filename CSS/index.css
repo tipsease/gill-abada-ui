@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.page-wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 500px;
+  max-width: 90%;
+}
+.banner h2 {
+  padding-bottom: 2px;
+  border-bottom: 1px grey solid;
+}

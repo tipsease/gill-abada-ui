@@ -291,6 +291,16 @@ h3 {
   margin: 0 auto;
   text-align: center;
 }
+@media (min-width: 1000px) {
+  .cta a {
+    width: 55%;
+  }
+}
+@media (min-width: 800px) {
+  .cta a {
+    width: 85%;
+  }
+}
 .cta button {
   background: #67AB4C;
   border: 0;

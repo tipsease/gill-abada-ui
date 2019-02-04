@@ -239,7 +239,7 @@ h3 {
   margin-top: 2rem;
   margin-bottom: 4rem;
 }
-.box-container {
+.feature {
   display: flex;
   align-content: center;
   align-items: center;
@@ -250,24 +250,24 @@ h3 {
   box-shadow: 0 2px 0 0 #282B2D;
 }
 @media (min-width: 1000px) {
-  .box-container:first-child {
+  .feature:first-child {
     margin-right: 50%;
     margin-top: 5rem;
   }
-  .box-container:last-child {
+  .feature:last-child {
     margin-left: 50%;
     margin-top: 5rem;
   }
 }
-.box-container h3 {
+.feature h3 {
   margin-top: 3rem;
   padding-bottom: 2rem;
   text-align: center;
 }
-.box-container p {
+.feature p {
   margin: 1rem 1rem;
 }
-.box-container img {
+.feature img {
   width: 100%;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;

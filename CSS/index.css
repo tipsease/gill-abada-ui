@@ -152,10 +152,15 @@ body {
 body {
   background-color: #EEF1E3;
   color: #282B2D;
-  width: 500px;
-  max-width: 100%;
   margin: 0 auto;
   font-size: 1.6rem;
+}
+.page-wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 500px;
+  max-width: 100%;
 }
 .banner {
   background-attachment: scroll,	fixed;
@@ -165,11 +170,6 @@ body {
   padding: 6rem 0 1rem 0;
   text-align: center;
   width: 100%;
-}
-.page-wrapper {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
 }
 .banner img {
   font-size: 6rem;
@@ -198,9 +198,6 @@ body {
   background: #282B2D;
   color: #67AB4C;
 }
-.main-content {
-  width: 100%;
-}
 .about {
   width: 100%;
   display: flex;
@@ -218,7 +215,7 @@ body {
   border-bottom-right-radius: 15px;
 }
 .about h1 {
-  width: 85%;
+  width: 90%;
   margin-top: 3rem;
   padding-bottom: 2rem;
   font-size: 2.5rem;
@@ -227,7 +224,7 @@ body {
 }
 .about p {
   margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 .box-container {
   width: 100%;
@@ -241,7 +238,6 @@ body {
   box-shadow: 0 2px 0 0 #282B2D;
 }
 .box-container h3 {
-  width: 100%;
   margin-top: 3rem;
   padding-bottom: 2rem;
   font-size: 2rem;
@@ -254,4 +250,40 @@ body {
   width: 100%;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+.bottom-img {
+  margin-top: 3rem;
+  width: 100%;
+  border-radius: 15px;
+}
+.cta {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  align-content: center;
+}
+.cta h2 {
+  margin: 4rem 0;
+  font-size: 2rem;
+}
+.cta a {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.cta button {
+  background: #67AB4C;
+  border: 0;
+  color: #282B2D;
+  width: 85%;
+  height: 4rem;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-bottom: 3rem;
+}
+.cta button:hover {
+  background: #282B2D;
+  color: #67AB4C;
 }

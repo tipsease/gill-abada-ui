@@ -1,0 +1,34 @@
+.feature {
+	.center();
+	background-color: @lighter-background;
+	margin: 1.5rem 0;
+	border-radius: 15px;
+	box-shadow: 0 2px 0 0 @content-font-color;
+}
+
+@media (min-width: 1000px) {
+	.feature:first-child {
+		margin-right: 50%;
+		margin-top: 5rem;
+	}
+
+	.feature:last-child {
+		margin-left: 50%;
+		margin-top: 5rem;
+	}
+}
+
+.feature h3 {
+	margin-top: 3rem;
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+.feature p {
+	margin: 1rem 1rem;
+}
+
+.feature img {
+	width: 100%;
+	.round-imgs()
+}

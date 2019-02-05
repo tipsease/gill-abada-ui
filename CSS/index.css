@@ -276,6 +276,11 @@ h3 {
   margin-bottom: 2rem;
   width: 85%;
 }
+.about .span-center {
+  text-align: center;
+  margin-left: 20rem;
+  border: 1px red solid;
+}
 .bottom-img {
   margin-top: 3rem;
   width: 100%;

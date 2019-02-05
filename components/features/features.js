@@ -5,7 +5,6 @@ class Feature {
     }
     read() {
         TweenMax.to(this.feature, 1, { x:-100 , opacity:0 , ease:Power1.easeInOut ,repeat:0, onComplete: () => this.feature.style.display = 'none'  });
-        // this.feature.style.display = 'none';
     }
 }
 

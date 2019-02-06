@@ -160,23 +160,14 @@ body {
   background: #67AB4C;
   opacity: 0.8;
 }
-.main-navigation .nav-container {
-  height: 100%;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  flex-flow: column wrap;
-  flex-flow: column nowrap;
-}
 .main-navigation .nav {
-  width: 380px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
-  justify-items: flex-end;
-  margin-top: 1.9rem;
+  margin-top: 1rem;
 }
 .main-navigation a {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #282B2D;
   text-decoration: none;
 }

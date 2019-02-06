@@ -7,15 +7,25 @@
 }
 
 @media (min-width: 1000px) {
-	.feature:first-child {
+	.feature:nth-child(odd) {
 		margin-right: 50%;
 		margin-top: 5rem;
 	}
 
-	.feature:last-child {
+	.feature:nth-child(even) {
 		margin-left: 50%;
 		margin-top: 5rem;
 	}
+
+	// .feature:nth-child(3) {
+	// 	margin-right: 50%;
+	// 	margin-top: 5rem;
+	// }
+
+	// .feature:last-child {
+	// 	margin-left: 50%;
+	// 	margin-top: 5rem;
+	// }
 }
 
 .feature h3 {

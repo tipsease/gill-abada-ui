@@ -165,11 +165,11 @@ body {
   box-shadow: 0 2px 0 0 #282B2D;
 }
 @media (min-width: 1000px) {
-  .feature:first-child {
+  .feature:nth-child(odd) {
     margin-right: 50%;
     margin-top: 5rem;
   }
-  .feature:last-child {
+  .feature:nth-child(even) {
     margin-left: 50%;
     margin-top: 5rem;
   }

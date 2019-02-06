@@ -186,6 +186,7 @@ body {
   margin: 1.5rem 0;
   border-radius: 15px;
   box-shadow: 0 2px 0 0 #282B2D;
+  cursor: pointer;
 }
 @media (min-width: 1000px) {
   .feature:nth-child(odd) {

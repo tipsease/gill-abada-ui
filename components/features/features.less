@@ -1,0 +1,36 @@
+.feature {
+	.center();
+	background-color: @lighter-background;
+	margin: 1.5rem 0;
+	border-radius: 15px;
+	box-shadow: 0 2px 0 0 @content-font-color;
+	cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+	.feature:nth-child(odd) {
+		margin-right: 50%;
+		margin-top: 5rem;
+	}
+
+	.feature:nth-child(even) {
+		margin-left: 50%;
+		margin-top: 5rem;
+	}
+}
+
+.feature h3 {
+	margin-top: 3rem;
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+.feature p {
+    width: 85%;
+    margin-bottom: 1.5rem;
+}
+
+.feature img {
+	width: 100%;
+	.round-imgs();
+}
